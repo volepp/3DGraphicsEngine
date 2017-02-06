@@ -1,0 +1,1 @@
+﻿  SOIL.vcxproj -> H:\Projects\Games\3DGame2\Dependencies\SOIL\projects\VC9\Debug\SOIL.lib

@@ -1,0 +1,3 @@
+﻿  Model.cpp
+  3DGame.vcxproj -> H:\Projects\Games\3DGame2\Debug\3DGame.exe
+  3DGame.vcxproj -> H:\Projects\Games\3DGame2\Debug\3DGame.pdb (Full PDB)

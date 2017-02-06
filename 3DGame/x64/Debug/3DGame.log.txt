@@ -1,0 +1,2 @@
+﻿  stdafx.cpp
+h:\projects\games\3dgame2\3dgame\3dgame\stdafx.h(20): fatal error C1083: Cannot open include file: 'glew.h': No such file or directory

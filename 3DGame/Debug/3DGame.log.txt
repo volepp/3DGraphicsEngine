@@ -1,0 +1,4 @@
+﻿  Game.cpp
+h:\user\projects\pelit\3dgame\3dgame\game.cpp(181): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+h:\user\projects\pelit\3dgame\3dgame\game.cpp(237): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  3DGame.vcxproj -> H:\User\Projects\Pelit\3DGame\Debug\3DGame.exe

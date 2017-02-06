@@ -1,0 +1,16 @@
+h:\user\projects\pelit\3dgame\3dgame\debug\3dgame.pch
+h:\user\projects\pelit\3dgame\3dgame\debug\vc140.pdb
+h:\user\projects\pelit\3dgame\3dgame\debug\vc140.idb
+h:\user\projects\pelit\3dgame\3dgame\debug\stdafx.obj
+h:\user\projects\pelit\3dgame\3dgame\debug\game.obj
+h:\user\projects\pelit\3dgame\3dgame\debug\main.obj
+h:\user\projects\pelit\3dgame\3dgame\debug\window.obj
+h:\user\projects\pelit\3dgame\debug\3dgame.ilk
+h:\user\projects\pelit\3dgame\debug\3dgame.exe
+h:\user\projects\pelit\3dgame\debug\3dgame.pdb
+h:\user\projects\pelit\3dgame\3dgame\debug\3dgame.tlog\cl.command.1.tlog
+h:\user\projects\pelit\3dgame\3dgame\debug\3dgame.tlog\cl.read.1.tlog
+h:\user\projects\pelit\3dgame\3dgame\debug\3dgame.tlog\cl.write.1.tlog
+h:\user\projects\pelit\3dgame\3dgame\debug\3dgame.tlog\link.command.1.tlog
+h:\user\projects\pelit\3dgame\3dgame\debug\3dgame.tlog\link.read.1.tlog
+h:\user\projects\pelit\3dgame\3dgame\debug\3dgame.tlog\link.write.1.tlog

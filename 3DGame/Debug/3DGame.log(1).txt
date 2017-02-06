@@ -1,0 +1,3 @@
+﻿  Camera.cpp
+  3DGame.vcxproj -> C:\Users\VOL\Desktop\Projects\Games\3DGame2\Debug\3DGame.exe
+  3DGame.vcxproj -> C:\Users\VOL\Desktop\Projects\Games\3DGame2\Debug\3DGame.pdb (Full PDB)
