@@ -1,1 +1,1 @@
-Moottori pystyy renderöimään ja lataamaan vain .obj modeleita, jotka on modelointiohjelmassa (esim. Blender) configuroitu juuri tietyllä tavalla, sillä .obj filet parsitaan manuaalisesti. Tämän takia osa Models-hakemiston modeleista ei suostu lataamaan.
+Pystyy nyt lataamaan suurimman osan Models-hakemiston modeleista (kuutiot conffattu väärin Blenderissä, joten ei niitä). Myös suurimman osan netistä ladatuista .obj modeleista pitäisi toimia.
