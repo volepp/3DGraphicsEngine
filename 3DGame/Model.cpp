@@ -53,9 +53,9 @@ void Model::loadOBJ(char *filepath) {
 			normals.push_back(normal);
 		}
 		else if (strcmp(lineHeader, "f") == 0) {
-			int vertexIndices[3], uvIndices[3], normalIndices[3];
+			int vertexIndices[3], normalIndices[3];
 
-			fscanf(fp, "%i/%i/%i %i/%i/%i %i/%i/%i\n", &vertexIndices[0], &uvIndices[0], &normalIndices[0], &vertexIndices[1], &uvIndices[1], &normalIndices[1], &vertexIndices[2], &uvIndices[2], &normalIndices[2]);
+			fscanf(fp, "%i//%i %i//%i %i//%i\n", &vertexIndices[0], &normalIndices[0], &vertexIndices[1], &normalIndices[1], &vertexIndices[2], &normalIndices[2]);
 
 			vertexBufferData.push_back(vertices[vertexIndices[0] - 1].x);
  			vertexBufferData.push_back(vertices[vertexIndices[0] - 1].y);
@@ -66,13 +66,6 @@ void Model::loadOBJ(char *filepath) {
 			vertexBufferData.push_back(vertices[vertexIndices[2] - 1].x);
 			vertexBufferData.push_back(vertices[vertexIndices[2] - 1].y);
 			vertexBufferData.push_back(vertices[vertexIndices[2] - 1].z);
-
-			uvBufferData.push_back(uvs[uvIndices[0] - 1].x);
-			uvBufferData.push_back(uvs[uvIndices[0] - 1].y);
-			uvBufferData.push_back(uvs[uvIndices[1] - 1].x);
-			uvBufferData.push_back(uvs[uvIndices[1] - 1].y);
-			uvBufferData.push_back(uvs[uvIndices[2] - 1].x);
-			uvBufferData.push_back(uvs[uvIndices[2] - 1].y);
 
 			normalBufferData.push_back(normals[normalIndices[0] - 1].x);
 			normalBufferData.push_back(normals[normalIndices[0] - 1].y);
@@ -90,11 +83,6 @@ void Model::loadOBJ(char *filepath) {
 
 	glBindBuffer(GL_ARRAY_BUFFER, vertexbuffer);
 	glBufferData(GL_ARRAY_BUFFER, vertexBufferData.size() * sizeof(GLfloat), &vertexBufferData[0], GL_STATIC_DRAW);
-
-	glGenBuffers(1, &uvbuffer);
-
-	glBindBuffer(GL_ARRAY_BUFFER, uvbuffer);
-	glBufferData(GL_ARRAY_BUFFER, uvBufferData.size() * sizeof(GLfloat), &uvBufferData[0], GL_STATIC_DRAW);
 
 	glGenBuffers(1, &normalbuffer);
 
