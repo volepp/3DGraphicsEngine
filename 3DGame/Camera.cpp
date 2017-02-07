@@ -2,11 +2,9 @@
 #include "Camera.h"
 #include "Model.h"
 
-Camera::Camera(Window *win, Map *p_map, glm::vec3 p_location)
+Camera::Camera(Window *win, glm::vec3 p_location)
 {
 	window = win;
-
-	map = p_map;
 
 	location = p_location;
 	direction = glm::vec3(0, 0, 0);
@@ -39,13 +37,6 @@ void Camera::render(GLuint programID, GLuint matrixID) {
 
 	glClearColor(0.0, 0.0, 0.0, 1.0);
 	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
-
-	/*std::vector<Object*> objects = map->getObjects();
-
-	for (int i = 0; i < objects.size(); i++) {
-		Object *o = objects.at(i);
-		o->render();
-	}*/
 
 	model->drawModel();
 

@@ -1,11 +1,11 @@
 #pragma once
 #include "Window.h"
-#include "Map.h"
+#include "Model.h"
 
 class Camera
 {
 public:
-	Camera(Window *win, Map *map, glm::vec3 p_location);
+	Camera(Window *win, glm::vec3 p_location);
 	~Camera();
 
 	void setLocation(glm::vec3 loc);
@@ -17,8 +17,6 @@ public:
 
 private:
 	Window *window;
-
-	Map *map;
 
 	glm::vec3 location;
 	glm::vec3 direction;

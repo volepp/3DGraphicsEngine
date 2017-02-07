@@ -31,7 +31,5 @@ private:
 	GLuint vertexbuffer, programID, matrixID;
 
 	Player *player;
-
-	Map *map;
 };
 

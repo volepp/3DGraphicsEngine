@@ -17,10 +17,8 @@ void Game::init() {
 	glfwSetWindowPos(window->getWindow(), 1000, 200);
 
 	input = new Input(window);
-	
-	map = new Map();
 
-	player = new Player(glm::vec3 (0, 0, 5), window, map);
+	player = new Player(glm::vec3 (0, 0, 5), window);
 
 	
 

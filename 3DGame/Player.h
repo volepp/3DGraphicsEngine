@@ -5,7 +5,7 @@
 class Player
 {
 public:
-	Player(glm::vec3 location, Window *win, Map *map);
+	Player(glm::vec3 location, Window *win);
 	~Player();
 
 	void update(float deltatime, double mouseX, double mouseY);
@@ -16,8 +16,6 @@ public:
 
 private:
 	Window *window;
-
-	Map *map;
 
 	Camera *camera;
 

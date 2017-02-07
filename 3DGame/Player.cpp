@@ -2,16 +2,14 @@
 #include "Player.h"
 
 
-Player::Player(glm::vec3 p_location, Window *win, Map *p_map)
+Player::Player(glm::vec3 p_location, Window *win)
 {
 	window = win;
 
 	location = p_location;
 	direction = glm::vec3(0, 0, 0);
 
-	map = p_map;
-
-	camera = new Camera(win, map, location);
+	camera = new Camera(win, location);
 
 	input = new Input(win);
 
