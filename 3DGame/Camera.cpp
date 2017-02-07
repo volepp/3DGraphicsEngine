@@ -11,7 +11,7 @@ Camera::Camera(Window *win, glm::vec3 p_location)
 
 	glEnable(GL_CULL_FACE);
 
-	model = new Model("Models/texturedcube.obj", "Textures/smiley.bmp");
+	model = new Model("Models/sphere2.obj", "Textures/smiley.bmp");
 }
 
 
